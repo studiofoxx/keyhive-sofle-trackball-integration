@@ -1,7 +1,7 @@
 # keyhive-sofle-trackball-integration
 
 This guide is to add support for the pimoroni trackball to the keyhive sofle v2.
-There is no current support for rgb, nor do i see any planned unless i get a pcb that works.
+There is no current support for rgb, nor do i see any planned unless i get a pcb that has more than half the leds able to be lit up.
 
 first clone the repo below. This was the first repo with support for the pimoroni trackball.
 
@@ -26,3 +26,6 @@ qmk flash -kb sofle/rev1 -km foureight84 -bl dfu-split-right
 
 to solder the pimoroni trackball, use the same method as in the above repo.
 for vcc either use p1, the pin on the oled, or solder directly to the underside of where the pro micro or elite c was soldered, matching the leads coming off the trackball.
+
+
+changes that were made are in the config.h file and rev1.h
