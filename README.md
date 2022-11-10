@@ -1,3 +1,5 @@
+##this code is unmaintained and untested with current QMK revisions!
+
 # keyhive-sofle-trackball-integration
 
 This guide is to add support for the pimoroni trackball to the keyhive sofle v2.
